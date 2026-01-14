@@ -17,7 +17,7 @@ credentials:
       logged_in: true
       name: Ismael Junior
       password: $2b$12$JcEhH4Pt7rXUEeLc5flGa.7CBFQggGzLkEz60HYVFRxA1hUESWUsG
-      roles: cliente
+      roles: administrador
     sabrina_adm:
       email: administrativo@mumix.com.br
       first_name: Sabrina
