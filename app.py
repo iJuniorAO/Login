@@ -73,10 +73,6 @@ except Exception as e:
     st.session_state
     stauth
 
-#Somente mostra caso não esteja logado
-if not st.session_state.get("authentication_status"):
-    st.write("Não logado")
-
 #usuário logado
 if st.session_state.get("authentication_status"):
   

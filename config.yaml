@@ -14,7 +14,7 @@ credentials:
     ijunior:
       email: analista.adm@mumix.com.br
       failed_login_attempts: 0
-      logged_in: true
+      logged_in: false
       name: Ismael Junior
       password: $2b$12$JcEhH4Pt7rXUEeLc5flGa.7CBFQggGzLkEz60HYVFRxA1hUESWUsG
       roles: administrador

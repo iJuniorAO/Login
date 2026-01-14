@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import re
 
+if not st.session_state.get("authentication_status"):
+    st.markdown("# :material/block: Acesso Negado")
+    st.stop()
+
 if not st.session_state["roles"] in ["administrador", "usuario"]:
     st.markdown("# :material/block: Acesso Negado")
     st.stop()

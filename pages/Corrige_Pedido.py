@@ -4,6 +4,9 @@ import re
 from datetime import datetime, time
 import io
 
+if not st.session_state.get("authentication_status"):
+    st.markdown("# :material/block: Acesso Negado")
+    st.stop()
 
 if not st.session_state["roles"] in ["administrador"]:
     st.markdown("# :material/block: Acesso Negado")
